@@ -1,5 +1,4 @@
-IDZPrecompiledVorbis
-====================
+# IDZPrecompiledVorbis [![Build Status](https://travis-ci.org/iosdevzone/IDZPrecompiledVorbis.svg?branch=master)](https://travis-ci.org/iosdevzone/IDZPrecompiledVorbis)
 
 libvorbis compiled for iOS armv7, armv7, arm64, i386, x86_64
 
