@@ -2,4 +2,4 @@ language: objective-c
 
 
 script:
-- travis_build
+- ./travis_build
