@@ -1,7 +1,10 @@
 # Config
-IDZ_VORBIS_VERSION=1.3.3
+IDZ_VORBIS_VERSION=1.3.5
 IDZ_OGG_VERSION=$IDZ_OGG_VERSION
-IDZ_IOS_SDK_VERSION=8.0
+
+#Update IDZ_IOS_SDK_VERSION to the version available on your mac
+#Run xcodebuild -showsdks to see the iOS version availanle on your mac
+IDZ_IOS_SDK_VERSION=8.3
 
 pushd $IDZ_BUILD_ROOT
 
