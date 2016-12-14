@@ -17,6 +17,7 @@ pushd libvorbis-$IDZ_VORBIS_VERSION
 mv configure.ac configure.ac.orig
 sed 's/-force_cpusubtype_ALL//' configure.ac.orig > configure.ac
 ./autogen.sh
+make distclean
 popd
 
 # Phone builds
