@@ -9,7 +9,7 @@ pushd $IDZ_BUILD_ROOT
 
 mkdir -p libvorbis/$IDZ_VORBIS_VERSION
 pushd libvorbis/$IDZ_VORBIS_VERSION
-curl -O http://downloads.xiph.org/releases/vorbis/libvorbis-$IDZ_VORBIS_VERSION.tar.gz
+curl -O https://ftp.osuosl.org/pub/xiph/releases/vorbis/libvorbis-$IDZ_VORBIS_VERSION.tar.gz
 tar xvfz libvorbis-$IDZ_VORBIS_VERSION.tar.gz
 
 # Patch configure.ac
