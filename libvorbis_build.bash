@@ -1,3 +1,8 @@
+#! /bin/sh
+
+# exit when any command fails
+set -e
+
 # Config
 IDZ_VORBIS_VERSION=1.3.5
 IDZ_OGG_VERSION=$IDZ_OGG_VERSION
